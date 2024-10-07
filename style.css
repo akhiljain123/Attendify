@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.heading {
+    width: 100%;
+    background-color: #274c6b; /* Dark Red */
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#school {
+    font-size: 48px;
+    color: #274c6b; /* Light Red */
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    animation: zoomIn 0.5s;
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+.right {
+    background-color: #f5c6cb; /* Soft Red */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form input {
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form input:focus {
+    border-color: #274c6b;
+    outline: none;
+}
+
+#submit {
+    background-color: #274c6b; /* Light Red */
+    color: white;
+}
+
+#submit:hover {
+    background-color: #274c6b; /* Dark Red */
+    color: white;
+    transform: scale(1.05);
+}
+
+.login_head {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 38px;
+    background-color: #274c6b; /* Dark Red */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    animation: fadeIn 0.5s;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr {
+    background-color: white; /* White background for table rows */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Light gray background on hover */
+}
+
+tr > th {
+    background-color: #274c6b; /* Dark Red */
+    color: white;
+}
+
+.studentData {
+    width: 100%;
+    background-color: #274c6b; /* Semi-Transparent Light Red */
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#form1 {
+    margin: auto;
+    width: 80%;
+}
+
+#form1 input {
+    padding: 10px;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form1 input:focus {
+    outline: none;
+}
+
+.td6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.td6 > button {
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.td6 > button:nth-child(1) {
+    background-color: #27ae60; /* Green */
+}
+
+.td6 > button:nth-child(2) {
+    background-color: red; /* Dark Red */
+}
+
+.td6 > button:hover {
+    transform: scale(1.1);
+}
+
+#absent {
+    background-color: red;
+}
+
+#resetBtn {
+    background-color: #274c6b; /* Dark Red */
+    color: white;
+    margin-top: 20px;
+}
+
+#resetBtn:hover {
+    background-color: #274c6b; /* Light Red */
+    transform: scale(1.05);
+}
+
+/* Background Image for Student Page */
+
